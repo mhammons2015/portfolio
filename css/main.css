@@ -1,0 +1,187 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #2b2b2b;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/****** HEADER ******/
+
+header {
+    height: 800px;
+    background: url('../img/header.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30px;
+    color: #black;
+    padding: 65px 0 65px 25px;
+}
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    padding-left: 50px;
+}
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/****** WORK ******/
+
+#work {
+    background-color: #3CB371;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+    width: 200px;
+}
+
+#work h3 {
+    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    line-height: 32px;
+    width: 190px;
+    margin: 0 auto;
+}
+
+#work p {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+/****** CONTACT ******/
+
+
+<style type="text/css">
+.form-style-6{
+	font: 'PT Sans', sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #2b2b2b;
+}
+.form-style-6 h1{
+	background: white;
+	padding: 20px 0;
+	font-size: 36px;
+	text-align: center;
+	color: black;
+
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select
+{
+
+	width: 100%;
+	background: #fff;
+	margin-bottom:10px;
+	border: 1px solid #ccc;
+	padding: 15px 0;
+	color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20px;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 15px;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	width: 100%;
+	padding: 20px 0;
+	background: #3CB371;
+	color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: ##2b2b2b;
+}
+</style>
